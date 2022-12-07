@@ -1,0 +1,79 @@
+body{
+	background: url(images/pur.jpg);
+	background-size: cover;
+
+}
+h1{ color:#ce93d8;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 2em;
+}
+
+form
+{	text-align: center;
+	margin: 0 auto;
+	max-width: 900px;
+
+}
+input,textarea,button{
+	border:1px solid black;
+	width: 55%;
+	padding: 15px 10px;
+	margin: 8px 0;
+	font-size: 1.2em;
+	font-family: 'Advent Pro', sans-serif;
+	border-radius: 8px;
+}
+textarea
+{
+	height: 120px;
+}
+button 
+{	width: 520px;
+	font-size: 1.5em;
+	background-color: #FFFAE1;
+}
+button:hover {
+background-color: #ce93d8;
+color: #FFFAE1;
+cursor: pointer;
+transform: 0.3s ease-in-out;
+}
+
+
+.en-tete ul
+{
+	padding: 0;
+	margin: 0;
+}
+.en-tete li{
+	list-style-type: none;
+}
+
+.en-tete a{
+	text-decoration: none;
+	color: black;
+}
+
+.en-tete li {
+	float: right;
+	font-size: 1.2em;
+}
+.en-tete li a {
+	text-decoration: none;
+	display: block;
+	text-align: center ;
+	padding: 18px 16px;
+}
+#logo{
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	float: left;
+}
+ nav{
+	overflow: hidden;
+	
+	width: 100%;
+	opacity: 0.9;
+}
